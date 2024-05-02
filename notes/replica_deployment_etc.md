@@ -69,7 +69,7 @@ it back to a previous version in case of
 any issues.
 ### Deployment
   * if we do this manually there will be lot
-of chances of errors and it's time
+of chances of error and it's time
 consuming we can automate this rollout
 and roll back with the deployment object
 in kubernetes.
