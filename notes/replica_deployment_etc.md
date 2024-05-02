@@ -52,11 +52,11 @@ us.
   * kubectl get po --show-labels
   * kubectl scale --replicas=4 deployment/< nginx-deployment>
   
-  ![alt text](19.png)
+  ![](19.png)
 
  
 ### Roll out Roll Back
-  *  ![alt text](16.png)
+  *  ![](16.png)
  *  let's say our application is running
 with the 1.21 version.
  * if you want to upgrade it to 1.21.3
@@ -82,7 +82,7 @@ replicas it creates the pods
 this is the reason pod is considered the
 smallest unit in kubernetes.
   
-![alt text](17.png)
+![](17.png)
   * you might be getting a question why pods
 is the smallest unit why not container
 because container leaves inside the pods
@@ -97,7 +97,7 @@ discussed if we don't care about rollout
 and rollback and just want our desired
 number of replicas are always available.
   * 
-  ![alt text](20.png)
+  ![](20.png)
   ### command
  * kubectl rollout history deployment/nginx-deployment 
   * kubectl rollout undo deployment/nginx-deployment --to-revision=1
