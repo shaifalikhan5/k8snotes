@@ -82,7 +82,7 @@ replicas it creates the pods
 this is the reason pod is considered the
 smallest unit in kubernetes.
   
-![](17.png)
+![](17.PNG)
   * you might be getting a question why pods
 is the smallest unit why not container
 because container leaves inside the pods
