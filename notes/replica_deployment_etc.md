@@ -56,7 +56,7 @@ us.
 
  
 ### Roll out Roll Back
-  *  ![](/notes/16.png)
+ *  ![](/notes/16.PNG)
  *  let's say our application is running
 with the 1.21 version.
  * if you want to upgrade it to 1.21.3
@@ -97,7 +97,7 @@ discussed if we don't care about rollout
 and rollback and just want our desired
 number of replicas are always available.
   * 
-  ![](/notes/20.png)
+  ![](/notes/20.PNG)
   ### command
  * kubectl rollout history deployment/nginx-deployment 
   * kubectl rollout undo deployment/nginx-deployment --to-revision=1
